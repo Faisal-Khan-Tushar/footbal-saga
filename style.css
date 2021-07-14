@@ -246,7 +246,7 @@ height: 259.17px;
  justify-content:space-around;
 }
 .box1,.box2{
-  width: 50%;
+  max-width: 50%;
   height:600px;
   margin-bottom: 158px;
 }
@@ -258,7 +258,7 @@ height: 259.17px;
 
 .box2{
   padding:2%;
-  width:90%;
+  max-width:90%;
   text-align:justify;
 }
 article h1{
@@ -271,9 +271,10 @@ article p{
 /* media query for tablet for the fouth section */
 @media only screen and (min-width:688px) and (max-width:1024px){
   .box1{
-    width:50%;
+    width:200px;
     height:200px;
     margin-bottom: 158px;
+    margin-left:0;
   }
 
   .box1-image{
