@@ -79,7 +79,7 @@ height: 259.17px;
 }
 .player-box{
   background-color:orange;
-  width: 330px;
+  max-width: 330px;
   height: 474px;
   border:2px solid whitesmoke;
   background-color:white;
@@ -101,4 +101,18 @@ height: 259.17px;
   color:#6C6C6C;
   font-size:16px;
 
+}
+/* second section media query for mobile */
+@media only screen and (max-width:688px) {
+  .players-box{
+    justify-content: center;
+    grid-template-columns:repeat(1,1fr);
+  
+  }
+  .player-box{
+    margin:15px;
+    border:2px solid;
+    width: 330px;
+    height: 474px;
+  }
 }
