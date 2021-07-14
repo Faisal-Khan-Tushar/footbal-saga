@@ -27,7 +27,8 @@ box-sizing:border-box;
   margin-top:103px;
   margin-left:156px;
   margin-right:100px;
-  border:2px solid;
+  /* border:2px solid; */
+  align-items:none;
 }
 .title{
   font-size: 64px;
@@ -73,16 +74,19 @@ box-sizing:border-box;
      width:100%;
      margin-bottom:47px;
      width: 400px;
-        height: 800px;
+     height: 800px;
     
   }
   
   .box-1{
     width: 378px;
-height: 582px;
-border:2px solid;
-margin-right:-900px;
-padding-right:200px;
+    height: 582px;
+    /* border:2px solid; */
+    margin-right:-900px;
+    padding-right:200px;
+    margin-top:0px;
+    margin-left:0;/*new8*/
+    padding:20px;
   }
   .title{
     font-size:36px;
@@ -246,7 +250,7 @@ height: 259.17px;
  justify-content:space-around;
 }
 .box1,.box2{
-  max-width: 50%;
+  width: 50%;
   height:600px;
   margin-bottom: 158px;
 }
@@ -258,7 +262,7 @@ height: 259.17px;
 
 .box2{
   padding:2%;
-  max-width:90%;
+  width:90%;
   text-align:justify;
 }
 article h1{
@@ -271,10 +275,9 @@ article p{
 /* media query for tablet for the fouth section */
 @media only screen and (min-width:688px) and (max-width:1024px){
   .box1{
-    width:200px;
+    width:50%;
     height:200px;
     margin-bottom: 158px;
-    margin-left:0;
   }
 
   .box1-image{
@@ -373,6 +376,7 @@ article p{
 }
 .copyright-box{
   width:420px;
+  border:2px solid;
   align-items:justify;
 
 }
