@@ -1,0 +1,70 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* common styles */
+body{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+}
+/* header section styling */
+.container{
+  background-color:#2D25A0;
+  border:2px solid;
+  max-width: 1440px;
+  height: 677px;
+  background-color:#2D25A0;
+  display:flex;
+  margin-bottom:70px;
+
+}
+.box-1{
+  width: 655px;
+  height: 288px;
+  background-color:orange;
+  border:2px solid;
+}
+.box-2{
+  width: 556.01px;
+  height: 438px;
+  background-color:orange;
+  border: 2px solid;
+}
+.box-2 img{
+  width:100%;
+}
+/* header section media query for mobile */
+@media only screen and (max-width:688px) {
+  .container{
+    
+    background-color:#2D25A0;
+    flex-direction:column;
+    /* width: 360px;
+     height: 695px;  */
+     width:100%;
+     margin-bottom:47px;
+    
+  }
+  .box-1{
+    width: 278px;
+height: 182px;
+  }
+  .box-2{
+    width: 329px;
+height: 259.17px;
+  }
+  .box-2 img{
+    width:100%;
+  }
+  
+}
+/* header section media query for tablets */
+@media only screen and (min-width:688px) and (max-width:922px) {
+  .container{
+    background-color:#2D25A0;
+    /* width: 360px;
+     height: 695px;  */
+     width:100%;
+  }
+  
+}
+/* end of the media query of the header section */
+/*------------------------ styling of the second section------------------------ */
