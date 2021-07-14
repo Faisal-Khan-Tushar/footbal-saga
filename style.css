@@ -376,7 +376,7 @@ article p{
 }
 .copyright-box{
   width:420px;
-  border:2px solid;
+  /* border:2px solid; */
   align-items:justify;
 
 }
