@@ -31,6 +31,10 @@ body{
 }
 .box-2 img{
   width:100%;
+  transition:transform 5s linear;
+}
+.box-2:hover img{
+  transform:scale(1.5) skew(-5deg);
 }
 /* header section media query for mobile */
 @media only screen and (max-width:688px) {
