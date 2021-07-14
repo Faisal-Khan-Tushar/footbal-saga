@@ -115,3 +115,17 @@ height: 259.17px;
     height: 474px;
   }
 }
+/* second section media query for tablets */
+@media only screen and (min-width:688px) and (max-width:1024px) {
+  .players-box{
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .player-box{
+    margin:15px;
+    width: 660px;
+    height: 500px;
+  }
+}
+/* end of the second section */
