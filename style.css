@@ -297,3 +297,51 @@ article p{
   }
   
 }
+/* end of the fifth section */
+.boxes-footer{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  /* border:2px solid; */
+  width:483.87px;
+  height:213px;
+  /* border:2px solid; */
+  margin-left:475px;
+  margin-bottom:63px;
+  margin-right:481px;
+
+ 
+  
+}
+.box-footer img{
+  width:100%;
+ 
+}
+.anchor{
+  font-size:24px;
+  /* border:2px solid; */
+}
+.anchor-box, .copyright-box{
+  /* border:2px solid; */
+  width:400px;
+  
+  margin-left:200px;
+}
+.anchor-box a{
+  color:lightgray;
+}
+.copyright-box p{
+  padding-right:50px;
+  /* border:2px solid; */
+}
+/* media query for mobile */
+@media only screen and (max-width:688px) {
+  .boxes-footer{
+    display:flex;
+    flex-direction:column;
+    border:2px solid;
+    margin-left:100%;
+  }
+  .box-footer{
+    /* margin-left:500px; */
+  }
+}
